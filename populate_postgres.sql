@@ -1,4 +1,4 @@
------------------------------------
+ -----------------------------------
 -- Script to populate the database
 -----------------------------------
 
@@ -188,72 +188,73 @@ insert into Relato values(260, '2015-05-12', 'Nenhum', 'Nenhum', TRUE, 3, 0, 'Ca
 
 
 insert into Examina_mae values(1001, 15487476969, 317978457, 41140369628, 255441289,
-'2016-03-23', 36.5, 70, 1.90, 1.2, 1, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, 'OK1' );
+'2014-01-22', 36.5, 70, 1.90, 1.2, 1, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, 'OK1' );
 insert into Examina_mae values(1002, 15487476969, 317978457, 41140369628, 255441289,
-'2016-04-23', 36.9, 68, 1.90, 1.2, 1, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, 'OK2' );
+'2014-02-22', 36.9, 68, 1.90, 1.2, 1, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, 'OK2' );
 
 insert into Examina_mae values(1011, 33956551486, 237849197, 45346387951, 509667454,
-'2016-03-23', 35.9, 64, 1.60, 1.2, 1, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, 'OK1' );
+'2015-03-15', 35.9, 64, 1.60, 1.2, 1, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, 'OK1' );
 insert into Examina_mae values(1012, 33956551486, 237849197, 45346387951, 509667454,
-'2016-04-23', 37.9, 69, 1.60, 1.2, 1, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, 'Febre' );
+'2015-04-15', 37.9, 69, 1.60, 1.2, 1, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, 'Febre' );
 
 insert into Examina_mae values(1021, 37564436719, 380516251, 15072255808, 358413047,
-'2016-03-23', 36.9, 90, 1.60, 1.2, 1, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, 'Acima do peso 1' );
+'2016-10-1', 36.9, 90, 1.60, 1.2, 1, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, 'Acima do peso 1' );
 insert into Examina_mae values(1022, 37564436719, 380516251, 15072255808, 358413047,
-'2016-03-23', 36.7, 91, 1.60, 1.2, 1, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, 'Acima do peso 2' );
+'2016-11-1', 36.7, 91, 1.60, 1.2, 1, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, 'Acima do peso 2' );
 
 
 insert into Examina_mae values(1061, 98761845396, 171355246, 14856772201, 464851919,
-'2016-05-23', 35.9, 80, 1.68, 1.2, 1, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, 'OK1' );
+'2015-05-12', 35.9, 80, 1.68, 1.2, 1, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, 'OK1' );
 insert into Examina_mae values(1062, 98761845396, 171355246, 14856772201, 464851919,
-'2016-06-23', 35.9, 80, 1.68, 1.2, 1, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, 'OK2' );
+'2015-06-12', 35.9, 80, 1.68, 1.2, 1, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, 'OK2' );
 
 insert into Examina_mae values(1051, 08546774102, 497253355, 06827524108, 104058675,
-'2016-07-23', 35.4, 50, 1.70, 1.2, 1, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, 'Abaixo do peso, Temperatura abaixo do normal.' );
+'2016-03-01', 35.4, 50, 1.70, 1.2, 1, FALSE, FALSE, TRUE, FALSE, FALSE, FALSE, 'Abaixo do peso, Temperatura abaixo do normal.' );
 
 insert into Examina_mae values(1081, 98761845396, 171355246, 48781491166, 120538611,
-'2017-07-23', 39.4, 60, 1.70, 1.2, 1, FALSE, FALSE, TRUE, FALSE, TRUE, TRUE, 'Dengue.' );
+'2017-02-10', 39.4, 60, 1.70, 1.2, 1, FALSE, FALSE, TRUE, FALSE, TRUE, TRUE, 'Dengue.' );
 
-insert into Examina_crianca values(2001, 1, 361846757, 41140369628, 255441289, 36.5, 7, 50, 3, TRUE, FALSE, 'Ok', FALSE, 'Ok', TRUE, 'Ok', 'Ok', 'limpo', 'torácica', '2016-03-23' );
-insert into Examina_crianca values(2002, 1, 361846757, 41140369628, 255441289, 36.9, 7, 52, 3, TRUE, FALSE, 'Ok', FALSE, 'Ok', TRUE, 'Ok', 'Ok', 'limpo', 'torácica', '2016-04-23' );
-insert into Examina_crianca values(2003, 1, 361846757, 41140369628, 255441289, 37.0, 7, 53, 3, TRUE, FALSE, 'Ok', FALSE, 'Ok', FALSE, 'Ok', 'Hue', 'limpo', 'torácica', '2016-05-23' );
+insert into Examina_crianca values(2001, 1, 361846757, 41140369628, 255441289, 36.5, 7, 50, 3, TRUE, FALSE, 'Ok', FALSE, 'Ok', TRUE, 'Ok', 'Ok', 'limpo', 'torácica', '2014-01-22' );
+insert into Examina_crianca values(2002, 1, 361846757, 41140369628, 255441289, 36.9, 7, 52, 3, TRUE, FALSE, 'Ok', FALSE, 'Ok', TRUE, 'Ok', 'Ok', 'limpo', 'torácica', '2014-02-22' );
+insert into Examina_crianca values(2003, 1, 361846757, 41140369628, 255441289, 37.0, 7, 53, 3, TRUE, FALSE, 'Ok', FALSE, 'Ok', FALSE, 'Ok', 'Hue', 'limpo', 'torácica', '2014-03-22' );
 
-insert into Examina_crianca values(2011, 2, 434810848, 45346387951, 509667454, 36.5, 15, 42, 3, TRUE, FALSE, 'Ok', FALSE, 'Ok', TRUE, 'Ok', 'Ok', 'limpo', 'torácica', '2015-03-23' );
-insert into Examina_crianca values(2012, 2, 434810848, 45346387951, 509667454, 37.6, 15, 43, 3, TRUE, FALSE, 'Ok', FALSE, 'Ok', TRUE, 'Ok', 'Ok', 'limpo', 'torácica', '2015-03-23' );
-
-
-insert into Examina_crianca values(2020, 3, 202390469, 15072255808, 358413047, 35.9, 18, 61, 4, TRUE, FALSE, 'Ok', FALSE, 'Ok', TRUE, 'Ok', 'Ok', 'limpo', 'abdominal', '2016-02-23' );
-insert into Examina_crianca values(2040, 5, 449010818, 18579646243, 112284395, 37.1, 23, 44, 2, TRUE, FALSE, 'Ok', FALSE, 'Ok', TRUE, 'Ok', 'Ok', 'secretivo', 'abdominal', '2015-06-17' );
-
-insert into Examina_crianca values(2060, 7, 441087383, 14856772201, 464851919, 36.3, 6, 50, 5, FALSE, TRUE, 'Abobrinha', FALSE, 'Ok', FALSE, 'agua', 'groselha', 'limpo', 'torácica', '2014-10-23' );
-insert into Examina_crianca values(2061, 7, 441087383, 14856772201, 464851919, 36.8, 6, 51, 4, FALSE, FALSE, 'Abobrinha', FALSE, 'Ok', FALSE, 'groselha', 'agua', 'limpo', 'torácica', '2014-11-23' );
-
-insert into Examina_crianca values(2080, 9, 251284712, 48781491166, 120538611, 37.0, 5, 63, 2, FALSE, FALSE, 'Ok', FALSE, 'Huehua', FALSE, 'Ok', 'agua', 'limpo', 'torácica', '2015-12-23' );
+insert into Examina_crianca values(2011, 2, 434810848, 45346387951, 509667454, 36.5, 15, 42, 3, TRUE, FALSE, 'Ok', FALSE, 'Ok', TRUE, 'Ok', 'Ok', 'limpo', 'torácica', '2015-03-15' );
+insert into Examina_crianca values(2012, 2, 434810848, 45346387951, 509667454, 37.6, 15, 43, 3, TRUE, FALSE, 'Ok', FALSE, 'Ok', TRUE, 'Ok', 'Ok', 'limpo', 'torácica', '2015-04-15' );
 
 
+insert into Examina_crianca values(2020, 3, 202390469, 15072255808, 358413047, 35.9, 18, 61, 4, TRUE, FALSE, 'Ok', FALSE, 'Ok', TRUE, 'Ok', 'Ok', 'limpo', 'abdominal', '2016-10-01' );
+insert into Examina_crianca values(2040, 5, 449010818, 18579646243, 112284395, 37.1, 23, 44, 2, TRUE, FALSE, 'Ok', FALSE, 'Ok', TRUE, 'Ok', 'Ok', 'secretivo', 'abdominal', '2016-10-01' );
+
+insert into Examina_crianca values(2060, 7, 441087383, 14856772201, 464851919, 36.3, 6, 50, 5, FALSE, TRUE, 'Abobrinha', FALSE, 'Ok', FALSE, 'agua', 'groselha', 'limpo', 'torácica', '2015-05-12' );
+insert into Examina_crianca values(2061, 7, 441087383, 14856772201, 464851919, 36.8, 6, 51, 4, FALSE, FALSE, 'Abobrinha', FALSE, 'Ok', FALSE, 'groselha', 'agua', 'limpo', 'torácica', '2015-06-12' );
+
+insert into Examina_crianca values(2080, 9, 251284712, 48781491166, 120538611, 37.0, 5, 63, 2, FALSE, FALSE, 'Ok', FALSE, 'Huehua', FALSE, 'Ok', 'agua', 'limpo', 'torácica', '2017-02-10' );
 
 
 
-insert into Aparelho_medico values(10001, 3, 3, 'Raio X', 'E Corp', 'muito bom' );
-insert into Aparelho_medico values(10002, 3, 3, 'Raio X', 'E Corp', 'muito bom' );
-insert into Aparelho_medico values(10003, 3, 3, 'Raio X', 'E Corp', 'regular' );
 
 
-insert into Aparelho_medico values(10011, 2, 2, 'Medidor de pressão', 'ACME', 'muito bom' );
-insert into Aparelho_medico values(10012, 2, 2, 'Medidor de pressão', 'ACME', 'parcialmente quebrado');
-
-insert into Aparelho_medico values(10021, 5, 5, 'Termômetro', 'Term SA', 'muito bom' );
-insert into Aparelho_medico values(10022, 5, 5, 'Termômetro', 'Term SA', 'muito bom' );
-insert into Aparelho_medico values(10023, 5, 5, 'Termômetro', 'Term SA', 'conservado' );
-insert into Aparelho_medico values(10024, 5, 5, 'Termômetro', 'Term SA', 'conservado' );
-insert into Aparelho_medico values(10025, 5, 5, 'Termômetro', 'Term SA', 'parcialmente quebrado');
+insert into Aparelho_medico values(10001, true, 'Raio X', 'E Corp', 'muito bom' );
+insert into Aparelho_medico values(10002, true, 'Raio X', 'E Corp', 'muito bom' );
+insert into Aparelho_medico values(10003, true, 'Raio X', 'E Corp', 'regular' );
 
 
-insert into Aparelho_medico values(10031, 2, 2, 'Balança', 'Peso SA', 'muito bom' );
-insert into Aparelho_medico values(10032, 2, 2, 'Balança', 'Peso SA', 'regular');
+insert into Aparelho_medico values(10011, true, 'Medidor de pressão', 'ACME', 'muito bom' );
+insert into Aparelho_medico values(10012, true, 'Medidor de pressão', 'ACME', 'parcialmente quebrado');
+
+insert into Aparelho_medico values(10021, true, 'Termômetro', 'Term SA', 'muito bom' );
+insert into Aparelho_medico values(10022, true, 'Termômetro', 'Term SA', 'muito bom' );
+insert into Aparelho_medico values(10023, false, 'Termômetro', 'Term SA', 'conservado' );
+insert into Aparelho_medico values(10024, true, 'Termômetro', 'Term SA', 'conservado' );
+insert into Aparelho_medico values(10025, true, 'Termômetro', 'Term SA', 'parcialmente quebrado');
 
 
-insert into Aparelho_medico values(10041, 1, 1, 'Fita métrica', 'Hue SA', 'regular');
+insert into Aparelho_medico values(10031, true, 'Balança', 'Peso SA', 'muito bom' );
+insert into Aparelho_medico values(10032, false, 'Balança', 'Peso SA', 'regular');
+
+insert into Aparelho_medico values(10041, true, 'Fita métrica', 'Hue SA', 'regular');
+
+
 
 
 insert into Telefone values(11, 9123456, 41140369628, 255441289);
@@ -294,8 +295,8 @@ insert into Visita_e_realizada values(11, 33956551486, 237849197, 45346387951, 5
 insert into Visita_e_realizada values(12, 33956551486, 237849197, 45346387951, 509667454, 2, 434810848, '2015-05-15', '18:00');
 
 
-insert into Visita_e_realizada values(20, 37564436719, 380516251, 15072255808, 358413047, 3, 202390469, '2016-10-1', '9:00' );
-insert into Visita_e_realizada values(21, 37564436719, 380516251, 15072255808, 358413047, 3, 202390469, '2016-10-1', '9:00' );
+insert into Visita_e_realizada values(20, 37564436719, 380516251, 15072255808, 358413047, 3, 202390469, '2016-10-01', '9:00' );
+insert into Visita_e_realizada values(21, 37564436719, 380516251, 15072255808, 358413047, 3, 202390469, '2016-11-1', '9:00' );
 
 
 insert into Visita_e_realizada values(30, 95424368581, 477676893, 69347516554, 334761487, 4, 330471491, '2016-09-19');
@@ -304,7 +305,7 @@ insert into Visita_e_realizada values(40, 49923183122, 409584678, 18579646243, 1
 insert into Visita_e_realizada values(50, 08546774102, 497253355, 06827524108, 104058675, 6, 307429921, '2016-03-01', '10:00' );
 
 insert into Visita_e_realizada values(60, 98761845396, 171355246, 14856772201, 464851919, 7, 441087383, '2015-05-12', '09:00');
-insert into Visita_e_realizada values(61, 98761845396, 171355246, 14856772201, 464851919, 7, 441087383, '2015-05-12', '10:00');
+insert into Visita_e_realizada values(61, 98761845396, 171355246, 14856772201, 464851919, 7, 441087383, '2015-06-12', '10:00');
 
 
 insert into Visita_e_realizada values(70, 54740381869, 141804221, 07025713422, 290962791, 8, 440276913, '2016-03-22', '10:00');
@@ -341,6 +342,4 @@ insert into Examina_mae_pode_usar values(1002, 15487476969, 317978457, 411403696
 insert into Examina_mae_pode_usar values(1081, 98761845396, 171355246, 48781491166, 120538611, 10041 );
 
 insert into Examina_mae_pode_usar values(1022, 37564436719, 380516251, 15072255808, 358413047, 10031);
-
-
 

@@ -294,8 +294,7 @@ CREATE TABLE  Examina_mae (
 -- -----------------------------------------------------
 CREATE TABLE  Aparelho_medico (
   Numero_serie INT NOT NULL,
-  Qtde_livre INT,
-  Qtde_total INT,
+  Livre BOOLEAN,
   Tipo VARCHAR(45),
   Fabricante VARCHAR(45),
   Estado_conservacao VARCHAR(45) check (Estado_conservacao = 'muito bom' or 
