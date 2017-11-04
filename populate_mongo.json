@@ -1,0 +1,761 @@
+///////////////////////////////
+//Script to populate MongoDB
+///////////////////////////////
+
+
+use modelagem
+show dbs
+
+///////////////////////////////
+//Pessoa
+///////////////////////////////
+db.pessoa.insert([
+{
+"rg": 255441289,
+"pnome":"Roberta",
+"mnome": "da Silva",
+"snome": "Montenegro",
+"data_nascimento": "1995-12-03", 
+"ativa": true
+},
+{
+"rg": 509667454,
+"pnome":"Renata",
+"mnome": "Cavalcante",
+"snome": "Matheus",
+"data_nascimento": "1994-04-11",
+"ativa": true
+},
+{
+"rg": 358413047,
+"pnome":"Fernanda",
+"mnome": "Hueralda",
+"snome": "Penteado",
+"data_nascimento": "1997-01-15",
+"ativa": true
+},
+{
+"rg": 334761487,
+"pnome":"Alice",
+"mnome": "Min",
+"snome": "Suzuki",
+"data_nascimento": "1992-01-18",
+"ativa": true
+},
+{
+"rg": 112284395,
+"pnome":"Larissa",
+"mnome": "Strassen",
+"snome": "da Silva",
+"data_nascimento": "1996-12-13",
+"ativa": true
+},
+{
+"rg": 104058675,
+"pnome":"Sofia",
+ "mnome": "Ferreira",
+ "snome": "Augusta",
+ "data_nascimento": "1992-09-11",
+ "ativa": true
+},
+{
+"rg": 464851919,
+"pnome":"Milena",
+"mnome": "Carvalho",
+"snome": "de Assis",
+"data_nascimento": "1995-01-22",
+"ativa": true
+},
+{
+"rg": 384591619,
+"pnome":"Janaina",
+"mnome": "Antonio",
+"snome": "Luz",
+"data_nascimento": "1993-01-11",
+"ativa": true
+},
+{
+"rg": 120538611,
+"pnome":"Ana",
+"mnome": "Júlia",
+"snome": "Neto",
+"data_nascimento": "1993-08-22",
+"ativa": true
+},
+{
+"rg": 290962791,
+"pnome":"Débora",
+"mnome": "da Silva",
+"snome": "Ribeiro",
+"data_nascimento": "1994-09-11",
+"ativa": true
+},
+{
+"rg": 317978457,
+"pnome":"Shirley",
+"mnome": "Cavalcante",
+"snome": "Ferreira",
+"data_nascimento": "1999-12-02",
+"ativa": true
+},
+{
+"rg": 237849197,
+"pnome":"Ana",
+"mnome":"Carolina",
+"snome":"Silveira",
+"data_nascimento":"2000-12-23",
+"ativa":true
+},
+{
+"rg": 380516251,
+"pnome":"Jusileila",
+"mnome": "Castro",
+"snome": "Leal",
+"data_nascimento": "2001-09-13",
+"ativa": true
+},
+{
+"rg": 477676893,
+"pnome":"Marguerita",
+"mnome": "da Silva",
+"snome": "Camargo",
+"data_nascimento": "2000-11-15",
+"ativa": true
+},
+{
+"rg": 409584678,
+"pnome":"Maria",
+"mnome": "das Dores",
+"snome": "Terceiro",
+"data_nascimento": "1999-10-11",
+"ativa": true
+},
+{
+"rg": 497253355,
+"pnome":"Keyla1",
+"mnome": "Keyla2",
+"snome": "Keyla3",
+"data_nascimento": "2000-11-10",
+"ativa": true
+},
+{
+"rg": 171355246,
+"pnome":"Jusleine1",
+"mnome": "Jusleine2",
+"snome": "Jusleine3",
+"data_nascimento": "1999-09-11",
+"ativa": true
+},
+{
+"rg": 141804221,
+"pnome":"Michele1",
+"mnome": "Michele2",
+"snome": "Michele3",
+"data_nascimento": "1998-06-20",
+"ativa": true
+},
+{
+"rg": 443004766,
+"pnome":"Marisa1",
+"mnome": "Marisa2",
+"snome": "Marisa3",
+"data_nascimento": "2002-05-21",
+"ativa": true
+},
+{
+"rg": 335871732,
+"pnome":"Maria1",
+"mnome": "Maria2",
+"snome": "Maria3",
+"data_nascimento": "1999-02-13",
+"ativa": true
+},
+{
+"rg": 361846757,
+"pnome": "Hueraldo",
+"mnome": "Cavalcante",
+"snome": "Ferreira",
+"data_nascimento": "2014-01-12",
+"ativa": true
+},
+{
+"rg": 434810848,
+"pnome": "Hueraldo",
+"mnome": "Carolina",
+"snome": "Silveira",
+"data_nascimento": "2015-03-10", 
+"ativa": true
+},
+{
+"rg": 202390469,
+"pnome": "Hueralda",
+"mnome": "Castro",
+"snome": "Leal",
+"data_nascimento": "2016-09-3",
+"ativa": true
+},
+{
+"rg": 330471491,
+"pnome": "Hueraldo",
+"mnome": "da Silva",
+"snome": "Carmargo",
+"data_nascimento": "2016-08-30",
+"ativa": true
+},
+{
+"rg": 307429921,
+"pnome": "Hueralda",
+"mnome": "Keyla2",
+"snome": "Keyla3",
+"data_nascimento": "2015-07-09",
+"ativa": true
+},
+{
+"rg": 449010818,
+"pnome": "Hueraldo",
+"mnome": "das Dores",
+"snome": "Terceiro",
+"data_nascimento": "2017-12-21", 
+"ativa": true
+},
+{
+"rg": 441087383,
+"pnome": "Alonso",
+"mnome": "Jusleine1",
+"snome": "Jusleine2",
+"data_nascimento": "2017-02-09",
+"ativa": true
+},
+{
+"rg": 440276913,
+"pnome": "Alonso",
+"mnome": "Michele2",
+"snome": "Michele3",
+"data_nascimento": "2016-12-29", 
+"ativa": true
+},
+{
+"rg": 251284712,
+"pnome": "Loucura",
+"mnome": "Jusleine2",
+"snome": "Jusleine2",
+"data_nascimento": "2016-05-12", 
+"ativa": true
+},
+{
+"rg": 435071385,
+"pnome": "Alonso",
+"mnome": "Marisa2",
+"snome": "Marisa3",
+"data_nascimento": "2016-03-29", 
+"ativa": true
+},
+{
+"rg": 375313898,
+"pnome": "Alonso",
+"mnome": "Maria2",
+"snome": "Maria3",
+"data_nascimento": "2017-02-04", 
+"ativa": true
+},
+{
+"rg": 111111111,
+"pnome": "Lislaine",
+"mnome": "Hue",
+"snome": "Wasd",
+"data_nascimento": "2011-03-04", 
+"ativa": true
+}
+])
+
+
+///////////////////////////////
+//Adulta
+///////////////////////////////
+db.adulta.insert([
+{
+"cpf": 41140369628,
+"rg": 255441289,
+"endereco": "Rua Zero, 365"
+},
+{
+"cpf": 45346387951,
+"rg": 509667454,
+"endereco": "Rua A, 123"
+},
+{
+"cpf": 15072255808,
+"rg": 358413047,
+"endereco": "Rua B, 321"
+},
+{
+"cpf": 69347516554,
+"rg": 334761487,
+"endereco": "Rua C, 441" 
+},
+{
+"cpf": 18579646243,
+"rg": 112284395,
+"endereco": "Rua D, 321" 
+},
+{
+"cpf": 06827524108,
+"rg": 104058675,
+"endereco": "Rua E, 987"
+},
+{
+"cpf": 14856772201,
+"rg": 464851919,
+"endereco": "Rua F, 786"
+},
+{
+"cpf": 23012563750,
+"rg": 384591619,
+"endereco": "Avenida G, 956" 
+},
+{
+"cpf": 48781491166,
+"rg": 120538611,
+"endereco": "Rua H, 132" 
+},
+{
+"cpf": 07025713422,
+"rg": 290962791,
+"endereco": "Rua I, 232" 
+},
+{
+"cpf": 15487476969,
+"rg": 317978457,
+"endereco": "Rua AA, 232" 
+},
+{
+"cpf": 33956551486,
+"rg": 237849197,
+"endereco": "Rua AB, 123" 
+},
+{
+"cpf": 37564436719,
+"rg": 380516251,
+"endereco": "Rua AC, 321" 
+},
+{
+"cpf": 95424368581,
+"rg": 477676893,
+"endereco": "Rua AD, 322" 
+},
+{
+"cpf": 49923183122,
+"rg": 409584678,
+"endereco": "Rua AE, 123" 
+},
+{
+"cpf": 08546774102,
+"rg": 497253355,
+"endereco": "Rua AF, 321" 
+},
+{
+"cpf": 98761845396,
+"rg": 171355246,
+"endereco": "Rua AG, 32" 
+},
+{
+"cpf": 54740381869,
+"rg": 141804221,
+"endereco": "Rua AH, 2332" 
+},
+{
+"cpf": 81202744826,
+"rg": 443004766,
+"endereco": "Rua AI, 232" 
+},
+{
+"cpf": 28283685210,
+"rg": 335871732,
+"endereco": "Rua AJ, 232" 
+},
+{
+"cpf": 11111111111,
+"rg": 111111111,
+"endereco": "Rua AK, 232" 
+}
+])
+
+
+///////////////////////////////
+//Mãe
+///////////////////////////////
+db.mae.insert([
+{
+"cpf":  15487476969,
+"rg":  317978457,
+"data_inicio":  "2014-01-21",
+"historico_familiar":  "O pai tem hipertensão",
+"condicao_emocional":  "Estresse",
+"condicao_economica":  "Miseráveis. A casa não tem registro",
+"antecedente_obstetrico":  "Primeira gravidez"
+},
+{
+"cpf": 33956551486,
+"rg": 237849197,
+"data_inicio": "2015-03-10",
+"historico_familiar": "A mãe morreu de infarto",
+"condicao_emocional": "Depressiva",
+"condicao_economica": "Pobres",
+"antecedente_obstetrico": "Primeira gravidez"
+},
+{
+"cpf": 37564436719,
+"rg": 380516251,
+"data_inicio": "2016-09-07",
+"historico_familiar": "Nenhum",
+"condicao_emocional": "Depressiva, não tem o suporte do pai da criança",
+"condicao_economica": "Miseráveis",
+"antecedente_obstetrico": "Segunda gravidez. Perdeu a primeira filha por complicações"
+},
+{
+"cpf": 95424368581,
+"rg": 477676893,
+"data_inicio": "2017-02-11",
+"historico_familiar": "Os pais são aidéticos",
+"condicao_emocional": "Depressão",
+"condicao_economica": "Miseráveis. A casa não tem registro",
+"antecedente_obstetrico": "Primeira gravidez"
+},
+{
+"cpf": 49923183122,
+"rg": 409584678,
+"data_inicio": "2017-12-22",
+"historico_familiar": "A mãe tem diabetes",
+"condicao_emocional": "Ansiedade",
+"condicao_economica": "Miseráveis. A casa não tem registro",
+"antecedente_obstetrico": "Primeira gravidez"
+},
+{
+"cpf": 08546774102,
+"rg": 497253355,
+"data_inicio": "2016-12-29",
+"historico_familiar": "Nenhum",
+"condicao_emocional": "Síndrome do pânico",
+"condicao_economica": "Pobres",
+"antecedente_obstetrico": "Primeira gravidez"
+},
+{
+"cpf": 98761845396,
+"rg": 171355246,
+"data_inicio": "2016-05-12",
+"historico_familiar": "Nenhum",
+"condicao_emocional": "Depressão",
+"condicao_economica": "Pobres",
+"antecedente_obstetrico": "Segunda gravidez"
+},
+{
+"cpf": 54740381869,
+"rg": 141804221,
+"data_inicio": "2017-01-04",
+"historico_familiar": "A mãe tem hipertensão",
+"condicao_emocional": "Nervosismo",
+"condicao_economica": "Miseráveis. Família sem renda",
+"antecedente_obstetrico": "Terceira gravidez. Perdeu o primeiro filho"
+},
+{
+"cpf": 81202744826,
+"rg": 443004766,
+"data_inicio": "2016-03-29",
+"historico_familiar": "Nenhum",
+"condicao_emocional": "Ela está nervosa com a gravidez",
+"condicao_economica": "Pobres. O pai está invalidado",
+"antecedente_obstetrico": "Primeira gravidez"
+},
+{
+"cpf": 28283685210,
+"rg": 335871732,
+"data_inicio": "2017-11-02",
+"historico_familiar": "Nenhum",
+"condicao_emocional": "Nenhum",
+"condicao_economica": "Pobres",
+"antecedente_obstetrico": "Primeira gravidez"
+}
+])
+
+
+///////////////////////////////
+//Enfermeira
+///////////////////////////////
+
+db.enfermeira.insert([
+{
+"cpf": 41140369628, 
+"rg": 255441289,
+"email": "roberta@feelgood.com",
+"nomehospital": "Hospital Feel Good inc"
+},
+{
+"cpf": 45346387951, 
+"rg": 509667454,
+"email": "renata@absdurbal.net",
+"nomehospital": "Hospital Absdurbal"
+},
+{
+"cpf": 15072255808, 
+"rg": 358413047,
+"email": "fernanda@absdurbal.net",
+"nomehospital": "Hospital Absdurbal"
+},
+{
+"cpf": 69347516554, 
+"rg": 334761487,
+"email": "alice@dores.com",
+"nomehospital": "Hospital das Dores"
+},
+{
+"cpf": 18579646243, 
+"rg": 112284395,
+"email": "larissa@dores.com",
+"nomehospital": "Hospital das Dores"
+},
+{
+"cpf": 06827524108, 
+"rg": 104058675,
+"email": "sofia@feelgood.com",
+"nomehospital": "Hospital Feel Good Inc"
+},
+{
+"cpf": 14856772201, 
+"rg": 464851919,
+"email": "milena@dores.com",
+"nomehospital": "Hospital das Dores"
+},
+{
+"cpf": 23012563750, 
+"rg": 384591619,
+"email": "ana@hospcancer.com",
+"nomehospital": "Hospital do Câncer"
+},
+{
+"cpf": 48781491166, 
+"rg": 120538611,
+"email": "julia@hospcancer.com",
+"nomehospital": "Hospital do Câncer"
+},
+{
+"cpf": 07025713422, 
+"rg": 290962791,
+"email": "debora@feelgood.com",
+"nomehospital": "Hospital Feel Good inc"
+},
+{
+"cpf": 11111111111, 
+"rg": 111111111,
+"email": "lislaine@feelgood.com",
+"nomehospital": "Hospital Manda Chuva"
+}
+])
+
+
+///////////////////////////////
+//Examina_mae
+///////////////////////////////
+
+db.examina_mae.insert([
+{
+"numero_exame": 1001,
+"cpf_mae": 15487476969,
+"rg_mae": 317978457,
+"cpf_enfermeira": 41140369628,
+"rg_enfermeira": 255441289, 
+"data": "2016-03-23", 
+"temperatura": 36.5, 
+"peso": 70,
+"altura": 1.90,
+"pressao_arterial": 1.2,
+"imc": 1,
+"mama_esq_inflamada": false,
+"mama_dir_inflamada": false,
+"mama_simetrica": true,
+"presenca_colostro": false,
+"alteracao_urinaria": false,
+"presenca_sangramento": false,
+"resultado": "OK1"
+},
+{
+"numero_exame": 1002,
+"cpf_mae": 15487476969,
+"rg_mae": 317978457,
+"cpf_enfermeira": 41140369628,
+"rg_enfermeira": 255441289, 
+"data": "2016-04-23", 
+"temperatura": 36.9, 
+"peso": 68,
+"altura": 1.90,
+"pressao_arterial": 1.2,
+"imc": 1,
+"mama_esq_inflamada": false,
+"mama_dir_inflamada": false,
+"mama_simetrica": true,
+"presenca_colostro": false,
+"alteracao_urinaria": false,
+"presenca_sangramento": false,
+"resultado": "OK2"
+},
+{
+"numero_exame": 1011,
+"cpf_mae": 33956551486,
+"rg_mae": 237849197,
+"cpf_enfermeira": 45346387951,
+"rg_enfermeira": 509667454, 
+"data": "2016-03-23", 
+"temperatura": 35.9, 
+"peso": 64,
+"altura": 1.60,
+"pressao_arterial": 1.2,
+"imc": 1,
+"mama_esq_inflamada": false,
+"mama_dir_inflamada": false,
+"mama_simetrica": true,
+"presenca_colostro": false,
+"alteracao_urinaria": false,
+"presenca_sangramento": false,
+"resultado": "OK1"
+},
+{
+"numero_exame": 1012,
+"cpf_mae": 33956551486,
+"rg_mae": 237849197,
+"cpf_enfermeira": 45346387951,
+"rg_enfermeira": 509667454, 
+"data": "2016-04-23", 
+"temperatura": 37.9, 
+"peso": 69,
+"altura": 1.60,
+"pressao_arterial": 1.2,
+"imc": 1,
+"mama_esq_inflamada": false,
+"mama_dir_inflamada": false,
+"mama_simetrica": true,
+"presenca_colostro": false,
+"alteracao_urinaria": false,
+"presenca_sangramento": false,
+"resultado": "Febre"
+},
+{
+"numero_exame": 1021,
+"cpf_mae": 37564436719,
+"rg_mae": 380516251,
+"cpf_enfermeira": 15072255808,
+"rg_enfermeira": 358413047, 
+"data": "2016-03-23", 
+"temperatura": 36.9, 
+"peso": 90,
+"altura": 1.60,
+"pressao_arterial": 1.2,
+"imc": 1,
+"mama_esq_inflamada": false,
+"mama_dir_inflamada": false,
+"mama_simetrica": true,
+"presenca_colostro": false,
+"alteracao_urinaria": false,
+"presenca_sangramento": false,
+"resultado": "Acima do peso 1"
+},
+{
+"numero_exame": 1022,
+"cpf_mae": 37564436719,
+"rg_mae": 380516251,
+"cpf_enfermeira": 15072255808,
+"rg_enfermeira": 358413047,
+"data": "2016-03-23",
+"temperatura": 36.7,
+"peso": 91,
+"altura": 1.60,
+"pressao_arterial": 1.2,
+"imc": 1,
+"mama_esq_inflamada": false,
+"mama_dir_inflamada": false,
+"mama_simetrica": true,
+"presenca_colostro": false,
+"alteracao_urinaria": false,
+"presenca_sangramento": false,
+"resultado": "Acima do peso 2"
+},
+{
+"numero_exame": 1061,
+"cpf_mae": 98761845396,
+"rg_mae": 171355246,
+"cpf_enfermeira": 14856772201,
+"rg_enfermeira": 464851919,
+"data": "2016-05-23",
+"temperatura": 35.9,
+"peso": 80,
+"altura": 1.68,
+"pressao_arterial": 1.2,
+"imc": 1,
+"mama_esq_inflamada": false,
+"mama_dir_inflamada": false,
+"mama_simetrica": true,
+"presenca_colostro": false,
+"alteracao_urinaria": false,
+"presenca_sangramento": false,
+"resultado": "OK1"
+},
+{
+"numero_exame": 1062,
+"cpf_mae": 98761845396,
+"rg_mae": 171355246,
+"cpf_enfermeira": 14856772201,
+"rg_enfermeira": 464851919,
+"data": "2016-06-23",
+"temperatura": 35.9,
+"peso": 80,
+"altura": 1.68,
+"pressao_arterial": 1.2,
+"imc": 1,
+"mama_esq_inflamada": false,
+"mama_dir_inflamada": false,
+"mama_simetrica": true,
+"presenca_colostro": false,
+"alteracao_urinaria": false,
+"presenca_sangramento": false,
+"resultado": "OK2"
+},
+{
+"numero_exame": 1051,
+"cpf_mae": 08546774102,
+"rg_mae": 497253355,
+"cpf_enfermeira": 06827524108,
+"rg_enfermeira": 104058675,
+"data": "2016-07-23",
+"temperatura": 35.4,
+"peso": 50,
+"altura": 1.70,
+"pressao_arterial": 1.2,
+"imc": 1,
+"mama_esq_inflamada": false,
+"mama_dir_inflamada": false,
+"mama_simetrica": true,
+"presenca_colostro": false,
+"alteracao_urinaria": false,
+"presenca_sangramento": false,
+"resultado": "Abaixo do peso, Temperatura abaixo do normal."
+},
+{
+"numero_exame": 1081,
+"cpf_mae": 98761845396,
+"rg_mae": 171355246,
+"cpf_enfermeira": 48781491166,
+"rg_enfermeira": 120538611,
+"data": "2017-07-23",
+"temperatura": 39.4,
+"peso": 60,
+"altura": 1.70,
+"pressao_arterial": 1.2,
+"imc": 1,
+"mama_esq_inflamada": false,
+"mama_dir_inflamada": false,
+"mama_simetrica": true,
+"presenca_colostro": false,
+"alteracao_urinaria": true, 
+"presenca_sangramento": true, 
+"resultado": "Dengue."
+}
+])
+
